@@ -1,0 +1,157 @@
+.navbar{
+    font-family:'Playfair', 'Poppins';
+    background-color:yellow;
+    border-bottom: 2px solid black;
+}
+.collapse.navbar-collapse .navbar-nav li{
+    padding:0 13px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-weight: 500;
+    color:tomato;
+} 
+.navbar-brand{
+    color:tomato;
+}
+.navbar-brand span{
+    color:blue;
+    font-weight: 700;
+}
+.word-counter-container{
+    margin-top: 80px;
+}
+.word-counter-container .manage-row{
+    border:2px solid #bcbcbc;
+    border-radius:10px;
+    background-color: #ededed;
+    padding-bottom:13px;
+}
+.word-write-area .word-input-area textarea{
+    border:none!important;
+    padding-left: 9px;
+}
+.count-area{
+    border-bottom:2px solid gray;
+}
+.count-area .w-2{
+    text-align: start;
+    margin-left:80px;
+}
+.count-area .uppercase{
+    color: gray;
+    font-size:12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.count-area .text-4xl{
+    line-height: 2.5rem;
+    /* font-size: 2.25rem, */
+    font-size: 36px;
+    font-weight: 600;
+
+    
+}
+.top-statistics{
+    background-color:white;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+}
+.top-statistics .count-area{
+    margin-left:5px;
+}
+.bottom-statistics{
+    background-color:white;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    height:30vh;
+    overflow: auto;
+}
+.word-counter-col{
+    padding-left:0;
+}
+.download-type button{
+    border:none;
+    background-color:gray;
+    padding:3px 20px;
+}
+.download-type .csv-type{
+    font-weight: 700;
+}
+.download-type .txt-type{
+    float:inline-end;
+    font-weight: 700;
+}
+.export-tech div{
+    color:gray;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.keyword-density{
+    text-align: center;
+    font-family: 'Poppins';
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+.keywords-item{
+    background-color: rgba(209, 213, 219);
+    color:gray;
+}
+.keywords-item .items-baseline .context-value-des{
+    padding-left:10px;
+}
+.density-value{
+    padding: 0;
+    margin: 0;
+}
+.download-load-copy{
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.word-density ul li{
+    color:black;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.word-density ul li .font-semibold-1{
+    color:black;
+    font-size:16px;
+
+}
+.word-density ul li .font-semibold-2{
+    color:black;
+    font-weight:600;
+    font-size:16px;
+}
+.word-density ul li .font-semibold-3{
+    color:black;
+    font-size:12px;
+}
+.word-density ul li:nth-child(odd){
+    background-color:#d1d5db;
+}
+.word-density ul li:nth-child(even){
+    background-color:#f3f4f6;
+}
+.items-center{
+    justify-content: space-between;
+}
+.action-event-btn .action-btn button{
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: 300;
+    line-height: inherit;
+    padding: 3px 10px;
+    margin:1px 1px;
+    transition: all 0.35s;
+}
+.action-event-btn .action-btn button:hover{
+    background-color:black;
+    border-radius: 5px;
+}

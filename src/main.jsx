@@ -11,7 +11,7 @@ let allRouter = createBrowserRouter([
     element:<HomePage></HomePage>
   },
   {
-    path:'word-counter',
+    path:'/',
     element:<WordCounterPage></WordCounterPage>
   }
 ])
